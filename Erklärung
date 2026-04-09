@@ -1,0 +1,27 @@
+# YouTube-Downloader | Python 3.12
+# Lädt YouTube-Videos herunter und konvertiert sie zu MP3
+#
+# In Entwicklung:
+# - Version mit GUI
+# - Version optimiert für Apple
+# - Version mit Auswahl ob Musik oder Video
+#
+# Bedienungsanleitung:
+# 1. Programm starten
+# 2. YouTube-Link eingeben
+# 3. Enter drücken
+# 4. MP3 wird automatisch in dem angegebenen Ordner gespeichert
+#    (Pfad kann in main.py Zeile 11 geändert werden)
+#
+# Voraussetzungen:
+# - Python 3.12
+# - yt-dlp      (pip install yt-dlp)
+# - FFmpeg:
+#     Linux:   sudo apt install ffmpeg
+#     Windows: winget install ffmpeg
+#              oder: https://ffmpeg.org/download.html
+#     Mac:     brew install ffmpeg
+# - PyCharm     (empfohlene Entwicklungsumgebung - kostenlos unter jetbrains.com/pycharm)
+#   Alternative: VS Code (code.visualstudio.com)
+#
+# Autor: Fin.L
