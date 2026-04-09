@@ -1,0 +1,1 @@
+# Hey! Hier werden bald die ersten Zeilen stehen von meinem Python YouTube-Downloader, der für iOS optimiert ist und Metadaten entfernt.
