@@ -32,7 +32,7 @@
 
 # - Python 3.12
 
-# - yt-dlp (pip install yt-dlp)
+# - yt-dlp (pip install yt-dlp) wenn das noch nicht installiert ist gebe diesen befehl bitte im Terminal ein
 
 # - FFmpeg:
 
