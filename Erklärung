@@ -1,53 +1,95 @@
 # YouTube-Downloader | Python 3.12
-
-# Lädt YouTube-Videos herunter und konvertiert sie zu MP3
-
-#
-
-# In Entwicklung:
-
-# - Version mit GUI
-
-# - Version optimiert für Apple
-
-# - Version mit Auswahl ob Musik oder Video
-
-#
-
-# Bedienungsanleitung:
-
-# 1. Programm starten
-
-# 2. YouTube-Link eingeben
-
-# 3. Enter drücken
-
-# 4. MP3 wird automatisch in dem angegebenen Ordner gespeichert
-
-# (Pfad kann in main.py Zeile 11 geändert werden)
-
-#
-
-# Voraussetzungen:
-
-# - Python 3.12
-
-# - yt-dlp (pip install yt-dlp) wenn das noch nicht installiert ist gebe diesen befehl bitte im Terminal ein
-
-# - FFmpeg:
-
-# Linux: sudo apt install ffmpeg
-
-# Windows: winget install ffmpeg
-
-# oder: https://ffmpeg.org/download.html
-
-# Mac: brew install ffmpeg
-
-# - PyCharm (empfohlene Entwicklungsumgebung - kostenlos unter jetbrains.com/pycharm)
-
-# Alternative: VS Code (code.visualstudio.com)
-
-#
-
 # Autor: Fin.L
+#
+# Dieses Programm lädt aus einem YouTube-Link die Audiospur herunter
+# und speichert sie als MP3-Datei auf deinem Computer.
+#
+# Bedienungsanleitung für absolute Menschen:
+#
+# 1. Programm starten.
+#
+# 2. Es öffnet sich ein kleines Fenster.
+#
+# 3. YouTube öffnen.
+#
+# 4. Ein Video aussuchen.
+#
+# 5. Den Link vom Video kopieren.
+#    Beispiel:
+#    https://www.youtube.com/watch?v=abc123
+#
+# 6. Den Link in das Eingabefeld vom Programm einfügen.
+#
+# 7. Auf den Button "MP3 herunterladen" klicken.
+#
+# 8. Warten, bis dort steht:
+#    "Fertig! MP3 wurde gespeichert."
+#
+# 9. Die fertige MP3 liegt danach in diesem Ordner:
+#    C:\Users\lucas\Music\YouTube
+#
+# 10. Danach kann direkt der nächste Link eingefügt werden.
+#
+#
+# Wichtig:
+#
+# - Dieses Programm lädt nur Audio als MP3 herunter.
+# - Der Speicherordner muss vorher existieren.
+# - Wenn der Ordner nicht existiert, bitte zuerst erstellen:
+#   Musik > YouTube
+#
+#
+# Voraussetzungen:
+#
+# Damit das Programm funktioniert, müssen diese Sachen installiert sein:
+#
+# 1. Python 3.12
+#
+# 2. yt-dlp
+#    Installation im Terminal:
+#    pip install yt-dlp
+#
+# 3. customtkinter
+#    Installation im Terminal:
+#    pip install customtkinter
+#
+# 4. FFmpeg
+#    Wird benötigt, damit aus der heruntergeladenen Audiodatei eine MP3 wird.
+#
+#    Windows:
+#    winget install ffmpeg
+#
+#    Linux:
+#    sudo apt install ffmpeg
+#
+#    Mac:
+#    brew install ffmpeg
+#
+#
+# Kontrolle, ob FFmpeg funktioniert:
+#
+# Im Terminal eingeben:
+# ffmpeg -version
+#
+# Wenn eine Versionsnummer angezeigt wird, ist FFmpeg richtig installiert.
+#
+#
+# Häufige Fehler:
+#
+# Fehler: No module named 'yt_dlp'
+# Lösung:
+# pip install yt-dlp
+#
+# Fehler: No module named 'customtkinter'
+# Lösung:
+# pip install customtkinter
+#
+# Fehler: ffprobe and ffmpeg not found
+# Lösung:
+# FFmpeg installieren und danach PyCharm neu starten.
+#
+#
+# Hinweis:
+#
+# Bitte nur Inhalte herunterladen, bei denen du die Rechte hast
+# oder bei denen der Download erlaubt ist.
